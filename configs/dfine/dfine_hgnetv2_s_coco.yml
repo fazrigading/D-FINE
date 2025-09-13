@@ -62,3 +62,6 @@ train_dataloader:
     stop_epoch: 120
     ema_restart_decay: 0.9999
     base_size_repeat: 20
+
+lr_warmup_scheduler:
+    warmup_duration: 500
